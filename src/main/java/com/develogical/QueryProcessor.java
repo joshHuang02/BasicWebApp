@@ -8,6 +8,9 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
+        if (query.toLowerCase().contains("bonless")) {
+            return "Boneless pizza is the most currect way to consume a pizza because you do not want bones in your pizza";
+        }
         return "";
     }
 }
